@@ -1,0 +1,5 @@
+name: danieldimitrov.cz
+pygments: true
+safe: true
+lsi: false
+permalink: /blog/:year/:title

@@ -1,0 +1,130 @@
+@media only screen and (max-width: 989px) {
+
+    footer div.contact div.text {
+        padding-left: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 870px) {
+    #top{
+        width: 95%;
+        padding:0 10px 0 10px;
+    }
+
+    #top header {
+        padding: 0;
+    }
+
+    #top header h1{
+        margin-bottom: 10px;
+    }
+
+    #top header {
+        width:100%;
+    }
+
+    #projects{
+        width: 95%;
+        padding:0 10px 0 10px;
+    }
+
+    #recommendations{
+        width: 95%;
+        padding:0 10px 0 10px;
+    }
+
+    #talks{
+        width: 95%;
+        padding:0 10px 0 10px;
+    }
+
+    footer div.form{
+        padding-left:10px;
+    }
+
+    footer div.contact div.text {
+        padding-left: 10px;
+    }
+
+    footer div.contact{
+        width: 130px;
+    }
+
+}
+
+@media only screen and (max-width: 735px) {
+
+    #top .my-photo{
+        background: url('../img/photo-small.png') no-repeat;
+        width: 120px;
+        height: 120px;
+        margin:0 10px 10px 0;
+    }
+
+    #projects article{
+        width: 100%;
+        float: left;
+        padding:0px;
+    }
+
+    #projects article div.content{
+        padding-left: 0px;
+    }
+
+    #projects article p{
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 645px) {
+    #recommendations article div.photo{
+        display: none;
+    }
+
+    #recommendations article div.content{
+        padding-left: 0px;
+        border: 0px;
+        width: 100%;
+    }
+
+    #recommendations article{
+        width: 100%;
+        float: left;
+        padding:0;
+    }
+
+    footer div.form{
+        width:90%;
+    }
+
+    footer div.contact{
+        padding-top:30px;
+        width:90%;
+    }
+
+    footer div.contact div.text{
+        padding: 0;
+    }
+
+    footer div.contact div.text p.billing-info2{
+        display:inline;
+    }
+
+    footer div.contact div.text p.billing-info1{
+        display:none;
+    }
+
+    footer{
+        height:530px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    footer{
+        height:540px;
+    }
+}
+

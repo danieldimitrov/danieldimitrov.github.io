@@ -1,0 +1,14 @@
+---
+layout: blog
+title: Krátké úvahy
+---
+
+<section id="blog">
+  <h1>Krátké úvahy</h1>
+  <h2>Napsal <a href="/">Daniel Dimitrov</a></h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
