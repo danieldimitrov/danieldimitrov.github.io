@@ -267,6 +267,14 @@ footer{
   margin-top:50px;
 }
 
+footer a{
+  color:#fff;
+}
+
+footer a:hover{
+  text-decoration: none;
+}
+
 footer div.container{
   padding:10px 20px 0 20px;
 }
@@ -296,14 +304,6 @@ footer div.contact{
   padding-left: 0px;
 }
 
-a.mail{
-  color:#fff;
-}
-
-a.mail:hover{
-  text-decoration: none;
-}
-
 footer div.contact div.text{
   padding-left:150px;
 }
@@ -314,55 +314,6 @@ footer div.contact div.text p.billing-info2{
 
 footer h2{
   font-size:24px;
-}
-
-footer div.contact a.social{
-  width: 48px;
-  height: 48px;
-  float: left;
-  cursor:pointer;
-  margin:30px 15px 0 0;
-}
-
-footer div.contact a.facebook{
-  background: url('../img/ico_facebook.png') 0 -49px no-repeat;
-
-}
-
-footer div.contact a.facebook:hover{
-  background: url('../img/ico_facebook.png') 0 0 no-repeat;
-}
-
-footer div.contact a.twitter{
-  background: url('../img/ico_twitter.png') 0 -49px no-repeat;
-}
-
-footer div.contact a.twitter:hover{
-  background: url('../img/ico_twitter.png') 0 0 no-repeat;
-}
-
-footer div.contact a.google{
-  background: url('../img/google_plus.png') 0 -49px no-repeat;
-}
-
-footer div.contact a.google:hover{
-  background: url('../img/google_plus.png') 0 0 no-repeat;
-}
-
-footer div.contact a.insta{
-  background: url('../img/ico_instagram.png') 0 -49px no-repeat;
-}
-
-footer div.contact a.insta:hover{
-  background: url('../img/ico_instagram.png') 0 0 no-repeat;
-}
-
-footer div.contact a.linkedin{
-  background: url('../img/ico_linkedin.png') 0 -49px no-repeat;
-}
-
-footer div.contact a.linkedin:hover{
-  background: url('../img/ico_linkedin.png') 0 0 no-repeat;
 }
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
