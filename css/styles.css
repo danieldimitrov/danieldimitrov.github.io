@@ -67,6 +67,32 @@ div.container {
   border-bottom:1px solid #000;
 }
 
+#services{
+  width:80%;
+  padding:0 80px 0 80px;
+  margin:0 auto;
+}
+
+#services header h2{
+  color:#000;
+  font-size: 24px;
+}
+
+#services article div.content header{
+  margin: 15px 0 15px 0;
+}
+
+#services div.content header h3{
+  font-size: 20px;
+  color: #da4a2a;
+  margin:0;
+}
+
+#services article p{
+  font-size: 16px;
+  padding: 0 5px 0 0;
+}
+
 #projects{
   width:80%;
   padding:0 80px 0 80px;
@@ -74,7 +100,6 @@ div.container {
 }
 
 #projects header h2{
-  color:#000;
   font-size: 24px;
 }
 
@@ -85,8 +110,7 @@ div.container {
 }
 
 #projects article div.content{
-  color: #666;
-  padding-left: 10px;
+  padding-left: 5px;
   width: 72%;
 }
 
@@ -95,14 +119,13 @@ div.container {
 }
 
 #projects div.content header h3{
-  font-size: 16px;
+  font-size: 20px;
   color: #da4a2a;
   margin:0;
 }
 
 #projects article div.content header a{
-  font-size: 14px;
-  color:#000;
+  font-size: 16px;
 }
 
 #projects article div.content header a:hover{
@@ -110,7 +133,7 @@ div.container {
 }
 
 #projects article p{
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 5px 0 5px;
 }
 
@@ -121,7 +144,6 @@ div.container {
 }
 
 #recommendations header h2{
-  color:#000;
   font-size: 24px;
 }
 
@@ -150,20 +172,19 @@ div.container {
 }
 
 #recommendations article div.content header h3{
-  font-size: 16px;
+  font-size: 20px;
   color: #da4a2a;
   margin:0;
 }
 
 #recommendations article div.content header strong{
-  font-size: 12px;
-  color: #000;
+  font-size: 14px;
 }
 
 #recommendations article div.content header a{
-  font-size: 12px;
-  color:#000;
+  font-size: 14px;
   font-weight: normal;
+  color: #000;
 
 }
 
@@ -172,90 +193,17 @@ div.container {
 }
 
 #recommendations article p{
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 5px 0 5px;
 }
 
 #recommendations article p a{
-  font-size: 14px;
+  font-size: 16px;
   color:#000;
 }
 
 #recommendations article p a:hover{
   text-decoration: none;
-}
-
-#blog{
-  margin:0 auto;
-  width:500px;
-  padding:0 10px 30px 10px;
-}
-
-#blog h1{
-  font-size: 32px;
-  color: #da4a2a;
-  padding-top: 30px;
-  margin-bottom: 10px;
-}
-
-#blog h2{
-  font-size: 14px;
-  font-weight: normal;
-  padding-bottom: 10px;
-}
-
-#blog h2 a{
-  color: #000;
-  border-bottom:1px dotted #000;
-  text-decoration: none;
-}
-
-#blog h2 a:hover{
-  border-bottom:1px solid #000;
-}
-
-#blog a{
-  color:#000;
-}
-
-#blog a:hover{
-  text-decoration: none;
-}
-
-#blog p.back{
-  font-size:12px;
-  padding-top: 30px;
-}
-
-#blog .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-#blog .post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-#blog .post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-#blog .post pre code {
-  border: none;
-}
-
-/* terminal */
-#blog .post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-#blog .post pre.terminal code {
-  background-color: #333;
 }
 
 footer{
@@ -265,6 +213,7 @@ footer{
   color:#fff;
   height:300px;
   margin-top:50px;
+  padding-bottom: 20px;
 }
 
 footer a{

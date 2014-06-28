@@ -23,6 +23,11 @@
     #top header {
         width:100%;
     }
+    
+    #services{
+        width: 95%;
+        padding:0 10px 0 10px;
+    }
 
     #projects{
         width: 95%;
