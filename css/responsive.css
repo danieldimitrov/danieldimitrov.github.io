@@ -39,11 +39,6 @@
         padding:0 10px 0 10px;
     }
 
-    #talks{
-        width: 95%;
-        padding:0 10px 0 10px;
-    }
-
     footer div.form{
         padding-left:10px;
     }
@@ -130,7 +125,7 @@
 @media only screen and (max-width: 320px) {
 
     footer{
-        height:580px;
+        height:680px;
     }
 }
 
