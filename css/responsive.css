@@ -24,17 +24,7 @@
         width:100%;
     }
     
-    #services{
-        width: 95%;
-        padding:0 10px 0 10px;
-    }
-
-    #projects{
-        width: 95%;
-        padding:0 10px 0 10px;
-    }
-
-    #recommendations{
+    #services, #projects, #technology, #recommendations{
         width: 95%;
         padding:0 10px 0 10px;
     }
