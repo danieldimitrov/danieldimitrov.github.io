@@ -158,6 +158,13 @@ div.container {
   padding-top: 20px;
 }
 
+#recommendations article div.photo img{
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -khtml-border-radius: 30px;
+}
+
 #recommendations article div.content{
   padding-left: 10px;
   width: 72%;
